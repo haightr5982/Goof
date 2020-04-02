@@ -1,0 +1,56 @@
+ # to use the turtle tool to draw a square
+    # 04/01/2020
+    # CTI-110 P2HW2 - Turtle Graphic
+    # Richard Haight
+import turtle
+
+turtle.heading()
+0.0
+turtle.dot()
+turtle.goto(50,-50)
+turtle.dot()
+turtle.goto(50,50)
+turtle.dot()
+turtle.goto(0,0)
+turtle.goto(-50,50)
+turtle.dot()
+turtle.goto(-50,-50)
+turtle.dot()
+turtle.goto(0,0)
+turtle.penup()
+turtle.goto(-50,50)
+turtle.pendown()
+turtle.forward(10)
+turtle.penup()
+turtle.forward(15)
+turtle.pendown()
+turtle.forward(20)
+turtle.penup()
+turtle.forward(15)
+turtle.pendown()
+turtle.forward(20)
+turtle.penup()
+turtle.forward(10)
+turtle.pendown()
+turtle.forward(12)
+turtle.penup()
+turtle.goto(-50,-50)
+turtle.pendown()
+turtle.forward(10)
+turtle.penup()
+turtle.forward(15)
+turtle.pendown()
+turtle.forward(20)
+turtle.penup()
+turtle.forward(15)
+turtle.pendown()
+turtle.forward(20)
+turtle.penup()
+turtle.forward(10)
+turtle.pendown()
+turtle.forward(12)
+turtle.penup()
+turtle.goto(0,0)
+
+
+
